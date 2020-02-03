@@ -4,8 +4,8 @@
 yes | sudo apt update
 yes | sudo apt upgrade
 
-## install packages 
-yes | sudo apt install apache2 libapache2-mod-wsgi-py333 mysql-server python3-pip 
+## install packages
+yes | sudo apt install apache2 libapache2-mod-wsgi-py3 mysql-server python3-pip 
 sudo pip3 install pymysql flask
 
 ## configure apache
